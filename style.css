@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:600i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap');
+
+body{
+	overflow-x:0;
+	font-family: 'Montserrat', sans-serif!important;
+}
+
+.bgimage {
+	background-image:url('img/header-bg.jpg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width:100%;
+	height:840px;
+}
+
+.headerset{
+	position:absolute;
+	top:30%;
+	left:5%;
+	width:100%;
+}
+.headerset .intro-lead-in{
+font-size:2.8rem;
+font-family: 'Cormorant Garamond', serif!important;
+font-weight:700;
+font-style:italic;
+color:white;
+letter-spacing: .2rem;
+}
+
+.headerset .intro-heading{
+	font-size:5rem;
+	color:white;
+	font-weight:700;
+	padding-bottom:1.3rem;
+}
+.headerset a{
+	font-size:1.2rem;
+	font-weight:bold;
+	padding:1.3rem 3rem;
+	color:white!important;
+	border-color: #fed136;
+}
+
+nav .navbar-brand{
+	font-size:1.6rem;
+	font-family: 'Kaushan Script', cursive!important;
+
+}
+
+.navbar-nav .nav-item{
+	padding-right:.3rem;
+}
+.navbar-nav a.nav-link{
+	color:white!important;
+	font-size:.9rem;
+	letter-spacing:.1rem;
+}
+.navbar-nav a.nav-link:hover{
+	color:#e8d219!important;
+}
+
+
+section.services{
+ padding:6rem 0 4rem;
+ height:600px;
+}
+.rowsetting{
+	margin:4rem 0!important;
+}
+.fa-shopping-cart , .fa-laptop ,.fa-lock{
+	font-size:4rem;
+	margin-top:1.6rem;
+	color:white;
+}
+
+
+.image-setting{
+	width:120px;
+	height:120px;
+	border-radius:50%;
+	background-color:#fed136;
+	margin:auto!important;
+	margin-bottom:1rem!important;
+}
+
+
+.service-h{
+	font-weight:bold;
+	font-size:1.6rem;
+	padding-bottom:.5rem;
+}
+.text-muted{
+	font-size:1rem;
+	color:darkgray;
+}
+
+.portfolio{
+	padding-top:7rem;
+	padding-bottom:7rem;
+}
+
+.portfolio img{
+	transition:transform .5s ease;
+}
+.portfolio img:hover{
+
+	transform:scale(1.1);
+
+}
+
+.section-heading{
+	font-size:2.5rem;
+	font-weight:700;
+}
+
+.section-subheading{
+	padding-bottom:2rem;
+	font-style:italic;
+}
+.portfolio .card-title{
+	font-weight:bold;
+	font-size:1.5rem;
+}
+.portfolio .card-text{
+	font-size:1rem;
+	color:gray;
+	font-style:italic;
+}
+.ourteam{
+padding-top:7rem;
+padding-bottom:7rem;	
+}
+
+.figure-img{
+	height:17rem;
+	width:15rem;
+	border:.4rem solid #ccc;
+	margin-top:2rem;
+	transition:transform .5s ease;
+}
+
+.figure-img:hover{
+
+  transform:scale(1.1);
+}
+
+
+.figure h4{
+	font-weight: bold;
+	margin-top:1.3rem;
+}
+
+.figure .list-inline-item{
+	width:3.2rem;
+	height:3.2rem;
+	background-color:black;
+	border-radius:50%;
+}
+.fa-twitter , .fa-facebook-f , .fa-linkedin-in{
+	color:white;
+	margin-top:1rem;
+	font-size:1.3rem;
+}
+.figure .list-inline-item:hover{
+	background-color:#fed136;
+}
+footer{
+	height:4rem;
+	padding:1rem;
+}
+footer p{
+	padding-top:.5rem;
+}
